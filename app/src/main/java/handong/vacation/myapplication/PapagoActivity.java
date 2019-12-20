@@ -107,7 +107,9 @@ public class PapagoActivity extends AppCompatActivity {
                 while ((inputLine = br.readLine()) != null) {
                     response.append(inputLine);
                 }
+
                 br.close();
+                con.disconnect();
 
                 if(responseCode!=200){ // error state
                     Log.e("papago",response.toString());
