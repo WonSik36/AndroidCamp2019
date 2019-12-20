@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="apple">사과</string>
+    <string name="kiwi">키위</string>
+    <string name="title_activity_first">FirstActivity</string>
+</resources>
